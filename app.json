@@ -1,17 +1,18 @@
 {
   "expo": {
-    "name": "English_Vocabulary",
-    "slug": "English_Vocabulary",
+    "name": "VocaBee",
+    "slug": "vocabee",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0E2A22",
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#0E2A22",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
@@ -20,6 +21,13 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "experiments": {
+      "baseUrl": "/VocaBee_Gh_Pages"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-audio"
+    ]
   }
 }

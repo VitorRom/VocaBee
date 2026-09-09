@@ -39,3 +39,10 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Ferramentas de geração da pronúncia (veja scripts/generate-audio.py).
+# O áudio gerado FICA no repositório: é ele que o app embarca.
+.ttsenv/
+.voices/
+.audio-tmp/
+.voice-preview/
